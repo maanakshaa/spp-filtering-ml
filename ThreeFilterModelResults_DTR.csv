@@ -1,0 +1,5 @@
+Filter 1 Filter 2 Filter 3,MAE OffsetX,MAE OffsetY,MAE Volume,RMSE OffsetX,RMSE OffsetY,RMSE Volume
+DTCWT Savitzky-Golay Bilateral,0.0467,0.0202,0.0589,0.0866,0.0407,0.1027
+DTCWT Savitzky-Golay Gaussian,0.0552,0.0237,0.069,0.096,0.0431,0.1144
+DTCWT Savitzky-Golay Median,0.0595,0.0256,0.0739,0.0999,0.0451,0.1209
+DTCWT Savitzky-Golay Multivariate,0.051,0.0219,0.0642,0.0922,0.0414,0.1096
