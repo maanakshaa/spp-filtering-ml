@@ -6,7 +6,7 @@ from PIL import Image
 logo = Image.open("sastra_logo.jpeg")
 resized_logo = logo.resize((700, 120))
 # --- Sidebar Navigation ---
-st.sidebar.image(logo, use_column_width=True)
+st.sidebar.image(logo, use_container_width=True)
 st.sidebar.markdown("---")
 page = st.sidebar.radio("Navigate", [
     "Overview",
@@ -125,10 +125,10 @@ elif page == "Multicollinearity":
     after = Image.open("after_multicollinearity.png")
     
     st.subheader("Before Removal")
-    st.image(before, caption="Before Multicollinearity Removal", use_column_width=True)
+    st.image(before, caption="Before Multicollinearity Removal", use_container_width=True)
     
     st.subheader("After Removal")
-    st.image(after, caption="After Multicollinearity Removal", use_column_width=True)
+    st.image(after, caption="After Multicollinearity Removal", use_container_width=True)
     
 
 
