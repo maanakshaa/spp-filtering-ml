@@ -64,11 +64,18 @@ This project presents a comprehensive approach to enhancing prediction accuracy 
 
 ---
 
+## 🖥️ Interactive GUI
+You can explore the model performance and filtering outcomes in real time using the interactive dashboard:
+
+👉 **[Streamlit App Link](https://spp-filtering-ml-3wmkmxfedwrtf7htrn4xic.streamlit.app/)**
+
+---
+
 ## ⚙️ Tools & Technologies
 - **Python (NumPy, Pandas, Scikit-learn, TensorFlow, Matplotlib)**
 - **SPI Dataset from SMT production line**
 - **Evaluation Metrics:** RMSE, MAE
-- **Data Visualization:** Power BI (for supplementary dashboarding)
+- **Data Visualization:** Power BI, Streamlit
 
 ---
 
